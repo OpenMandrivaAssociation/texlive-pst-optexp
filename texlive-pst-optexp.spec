@@ -52,6 +52,7 @@ for proper orientation of the elements.
 %doc %{_texmfdistdir}/doc/generic/pst-optexp/parque-nacional.eps
 %doc %{_texmfdistdir}/doc/generic/pst-optexp/pst-optexp-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-optexp/pst-optexp-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +63,5 @@ for proper orientation of the elements.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
