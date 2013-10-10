@@ -1,11 +1,11 @@
-# revision 27743
+# revision 31266
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-optexp
-# catalog-date 2012-09-19 18:03:54 +0200
+# catalog-date 2013-07-21 22:38:34 +0200
 # catalog-license lppl
-# catalog-version 3.3a
+# catalog-version 4.5
 Name:		texlive-pst-optexp
-Version:	3.3a
+Version:	4.5
 Release:	1
 Summary:	Drawing optical experimental setups
 Group:		Publishing
@@ -20,11 +20,13 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The package pst-optexp is a collection of optical components
-that facilitate easy sketching of optical experimental setups.
-Mechanisms for proper alignment of different components are
-provided internally. This way the user does not have to care
-for proper orientation of the elements.
+The package is a collection of optical components that
+facilitate easy sketching of optical experimental setups. The
+package uses PSTricks for its output. A wide range of free-ray
+and fibre components is provided, the alignment, positioning
+and labelling of which can be achieved in very simple and
+flexible ways. The components may be connected with fibers or
+beams, and realistic raytraced beam paths are also possible.
 
 %post
     %{_sbindir}/texlive.post
