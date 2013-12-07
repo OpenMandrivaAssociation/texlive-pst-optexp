@@ -6,7 +6,7 @@
 # catalog-version 4.5
 Name:		texlive-pst-optexp
 Version:	4.5
-Release:	3
+Release:	4
 Summary:	Drawing optical experimental setups
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-optexp
