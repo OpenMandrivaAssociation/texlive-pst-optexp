@@ -1,11 +1,11 @@
-# revision 32656
+# revision 33077
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-optexp
-# catalog-date 2014-01-13 10:27:14 +0100
+# catalog-date 2014-02-28 20:10:22 +0100
 # catalog-license lppl
-# catalog-version 4.7
+# catalog-version 4.8
 Name:		texlive-pst-optexp
-Version:	4.7
+Version:	4.8
 Release:	1
 Summary:	Drawing optical experimental setups
 Group:		Publishing
