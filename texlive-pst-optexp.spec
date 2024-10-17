@@ -3,7 +3,7 @@ Version:	62977
 Release:	2
 Summary:	Drawing optical experimental setups
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-optexp
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-optexp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-optexp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-optexp.doc.r%{version}.tar.xz
